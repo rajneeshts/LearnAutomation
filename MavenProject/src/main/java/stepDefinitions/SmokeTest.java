@@ -22,7 +22,7 @@ public class SmokeTest {
 
 	@When("^User enter valid a user name$")
 	public void User_enter_valid_a_user_name() throws Throwable {
-		System.out.println("When executed.");
+		System.out.println("When executed1.");
 		driver.findElement(By.name("username")).sendKeys("admin");
 	}
 
