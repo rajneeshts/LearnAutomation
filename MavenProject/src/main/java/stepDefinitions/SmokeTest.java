@@ -29,7 +29,7 @@ public class SmokeTest {
 	@When("^User enter a valid password$")
 	public void User_enter_a_valid_password() throws Throwable {
 		driver.findElement(By.name("password")).sendKeys("admin@123");
-		System.out.println("And executed");
+		System.out.println("And executed1");
 		
 	}
 
